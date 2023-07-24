@@ -1,42 +1,44 @@
 # Quantum Computing
 
-Short project description or tagline.
+Official Repositori Pembelajaran Quantum Computing Kelas Terbuka
 
 ## Table of Contents
 
 - [Project Description](#project-description)
-- [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Project Description
 
-A detailed description of the project, including its purpose, features, and any other relevant information. Provide a clear and concise overview of what the project does.
+Repositori ini berisi dari hasil / implementasi dari pembelajaran Quantum Computing kelas terbuka.
 
-## Features
+Pemateri: [Reynaldi Gilang Mulyawan](https://www.linkedin.com/in/reynaldi-gilang-mulyawan-102301189/)
 
-List the key features and functionalities of the project. Use bullet points to make it easy to read.
 
 ## Installation
 
-Provide step-by-step instructions on how to install the project locally. Include any prerequisites, dependencies, or environment setup if applicable.
+Lakukan instalasi library yang dibutuhkan pada project dengan perintah
+```
+pip install -r requirements.txt
+```
+Jika terjadi error seperti dibawah ini
+```
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+```
+Kamu bisa menginstall dengan cara
+```
+pip install -r requirements.txt --break-system-packages
+```
 
-## Usage
+informasi lebih lanjut tentang external environment ([PEP-668](https://peps.python.org/pep-0668/))
 
-Explain how to use the project. Provide code examples or usage scenarios to demonstrate its capabilities.
 
-## Contributing
-
-Explain how others can contribute to the project. Include guidelines for bug reports, feature requests, and submitting pull requests. If there are any coding conventions or standards, mention them here.
+Jika memiliki kendala lain kamu bisa memberitahukan kepada kami masalah tersebut dengan membuat issues [disini](https://github.com/kelasterbuka/quantum_computing/issues)
 
 ## License
 
-Mention the license under which the project is released. For example, you can use the MIT License, Apache License, etc. Include a copy of the license in the repository as `LICENSE.txt` or `LICENSE.md`.
-
-## Acknowledgements
-
-If your project uses third-party libraries, tools, or assets, acknowledge and give credit to their creators here. You can also mention any individuals or resources that have inspired or assisted the project.
+Project ini dibawah Lisensi open source [MIT](LICENSE)
 
