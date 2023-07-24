@@ -1,0 +1,35 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+env_bak/
+*.venv
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.log.*
+*.tmp
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
